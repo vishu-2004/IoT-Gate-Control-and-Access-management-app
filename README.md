@@ -1,3 +1,45 @@
+<h1 style="font-family: Arial, sans-serif; font-size: 2.5em; color: #333;">🔑 Project: IoT Gate Control and Access Management App</h1>
+
+<p style="font-family: Arial, sans-serif; font-size: 1.1em; color: #555;">
+  This app serves not only as a remote for controlling gate operations but also has some unique features that enhance its functionality and user experience.
+</p>
+
+<h2 style="font-family: Arial, sans-serif; font-size: 2em; color: #444;">🚀 Key Features</h2>
+
+<ul style="font-family: Arial, sans-serif; font-size: 1.1em; color: #666;">
+  <li><strong>Remote Gate Control:</strong> Open/close gates remotely using a smartphone.</li>
+  <li><strong>Geolocation Feature:</strong> The gate can only be opened or closed when the user’s device is within a specific range of the gate, ensuring enhanced security.</li>
+  <li><strong>User Roles and Permissions:</strong>
+    <ul>
+      <li><strong>Superadmin:</strong> Can add admins, create gates (establish a connection between the app and gates), allocate gates to users, and remove access to allocated gates.</li>
+      <li><strong>Admin:</strong> Can allocate and remove gate access for users.</li>
+      <li><strong>User/Guest:</strong> Has access to open/close gates assigned to them and can remove gates allocated to them.</li>
+    </ul>
+  </li>
+  <li><strong>Share Device Feature:</strong> Temporarily share gate access with others for a limited period of time—particularly useful when granting temporary access to service personnel, visitors, or guests without compromising security.</li>
+  <li><strong>Multiple Gate Management:</strong> Seamlessly control and manage multiple gates through a single, intuitive interface.</li>
+  <li><strong>Secure Access:</strong> Built-in authentication to ensure that gate operations remain safe and secure.</li>
+</ul>
+
+<h2 style="font-family: Arial, sans-serif; font-size: 2em; color: #444;">Technology Stack</h2>
+<ul style="font-family: Arial, sans-serif; font-size: 1.1em; color: #666;">
+  <li><strong>Frontend:</strong> React Native, Expo</li>
+  <li><strong>Backend:</strong> Node.js</li>
+  <li><strong>Messaging Protocol:</strong> Paho-MQTT for real-time communication with IoT devices.</li>
+</ul>
+
+<h2 style="font-family: Arial, sans-serif; font-size: 2em; color: #444;">Libraries Used</h2>
+<ul style="font-family: Arial, sans-serif; font-size: 1.1em; color: #666;">
+  <li><strong>React Navigation:</strong> For seamless navigation between screens.</li>
+  <li><strong>React Native Paper:</strong> For elegant UI component design.</li>
+  <li><strong>React Native Reanimated:</strong> For smooth and efficient animations.</li>
+  <li><strong>Expo Vector Icons:</strong> For a wide range of icons to enhance the app's UI.</li>
+  <li><strong>Expo Splash Screen:</strong> To customize the app's loading screen.</li>
+  <li><strong>Axios:</strong> For handling HTTP requests.</li>
+</ul>
+
+
+
 <div style="display: flex; flex-wrap: wrap;">
 
 
